@@ -1,0 +1,1 @@
+curl 'https://raw.githubusercontent.com/DKazakov/hooks/master/install.sh?'$RANDOM | bash -
