@@ -3,6 +3,8 @@
 CURRENT=`pwd`
 if [ -d ~/.git-workaround ];then
     cd ~/.git-workaround
+    git reset --hard HEAD
+    git clean -dfx
     git pull
     cd $CURRENT
     bash ~/.git-workaround/install.sh
